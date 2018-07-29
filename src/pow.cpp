@@ -17,7 +17,7 @@
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader* pblock)
 {
-    /* current difficulty formula, lightpaycoin - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
+    /* current difficulty formula, baysic-coin - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
     const CBlockIndex* BlockLastSolved = pindexLast;
     const CBlockIndex* BlockReading = pindexLast;
     int64_t nActualTimespan = 0;
@@ -44,7 +44,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         if (nActualSpacing < 0)
             nActualSpacing = 1;
 
-        // ppcoin: target change every block
+        // baysic-coin: target change every block
         // ppcoin: retarget with exponential moving toward target spacing
         uint256 bnNew;
         bnNew.SetCompact(pindexLast->nBits);
