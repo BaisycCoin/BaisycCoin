@@ -1,6 +1,5 @@
 Copyright (c) 2009-2015 Bitcoin Developers
 Copyright (c) 2014-2015 Dash Developers
-Copyright (c) 2018 LightPayCoin Developers
 Copyright (c) 2018 Baysic-Coin Developers
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
