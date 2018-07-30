@@ -16,17 +16,17 @@ typedef int64_t CAmount;
 static const CAmount COIN = 100000000;
 static const CAmount CENT = 1000000;
 
-/** Type-safe wrapper class to for fee rates
- * (how much to pay based on transaction size)
- * 
- * Note that this constant is *not* the total money supply, 
+/** Note that this constant is *not* the total money supply, 
  * which in baysic-coin currently happens to be less than 33,000,000 BYSC for various reasons, but
  * rather a sanity check. 
+ * 
+ * Type-safe wrapper class to for fee rates
+ * (how much to pay based on transaction size)
+ * 
  */
 
 static const CAmount MAX_MONEY = 33000000 * COIN;
 inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
-
 
 class CFeeRate
 {
@@ -55,7 +55,6 @@ public:
     {
         READWRITE(nSatoshisPerK);
     }
-
 };
 
 #endif //  BITCOIN_AMOUNT_H
