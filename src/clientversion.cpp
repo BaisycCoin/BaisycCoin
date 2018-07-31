@@ -13,7 +13,7 @@
  * for both baysiccoind and baysiccoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Coin Core");
+const std::string CLIENT_NAME("BaysicCoin Core");
 
 /**
  * Client version number
