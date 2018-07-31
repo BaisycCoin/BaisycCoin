@@ -5,10 +5,6 @@
 #ifndef _SECP256K1_
 # define _SECP256K1_
 
-# ifdef __cplusplus
-extern "C" {
-# endif
-
 # if !defined(SECP256K1_GNUC_PREREQ)
 #  if defined(__GNUC__)&&defined(__GNUC_MINOR__)
 #   define SECP256K1_GNUC_PREREQ(_maj,_min) \
