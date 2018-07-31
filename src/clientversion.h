@@ -6,14 +6,14 @@
 #define BITCOIN_CLIENTVERSION_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/lightpaycoin-config.h"
+#include ""
 #else
 
 /**
  * client versioning and copyright year
  */
 
-//! These need to be macros, as clientversion.cpp's and lightpaycoin*-res.rc's voodoo requires it
+//! These need to be macros, as clientversion.cpp's and baysiccoin*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 1
 #define CLIENT_VERSION_MINOR 0
 #define CLIENT_VERSION_REVISION 0
@@ -23,7 +23,7 @@
 #define CLIENT_VERSION_IS_RELEASE true
 
 /**
- * Copyright year (2009-this)
+ * Copyright year (2018-this)
  * Todo: update this when changing our copyright comments in the source
  */
 #define COPYRIGHT_YEAR 2017
