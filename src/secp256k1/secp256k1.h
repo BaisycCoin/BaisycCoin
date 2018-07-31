@@ -1,3 +1,7 @@
+// Copyright (c) 2009-2014 The Bitcoin developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #ifndef _SECP256K1_
 # define _SECP256K1_
 
