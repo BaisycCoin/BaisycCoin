@@ -10,6 +10,7 @@
 #include <utility>
 
 /** STL-like set container that only keeps the most recent N elements. */
+
 template <typename T>
 class mruset
 {
