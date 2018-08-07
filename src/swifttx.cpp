@@ -1,5 +1,7 @@
-
-
+// Copyright (c) 2016-2017 The LightPayCoin developers
+// Copyright (c) 2018 The Baysic developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "swifttx.h"
 #include "activemasternode.h"
