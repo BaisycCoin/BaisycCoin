@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 /**
- * Money parsing/formatting utilities.
+ * Money parsing & formatting utilities.
  */
 #ifndef BITCOIN_UTILMONEYSTR_H
 #define BITCOIN_UTILMONEYSTR_H
