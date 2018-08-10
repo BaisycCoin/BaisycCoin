@@ -9,7 +9,7 @@
 #define BITCOIN_MAIN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/baysiccoin-config.h"
+#include // include "config/baysiccoin-config.h"
 #endif
 
 #include "amount.h"
