@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2018 The LightPayCoin developers
+// Copyright (c) 2018 The BaysicCoin developers
 // Copyright (c) 2018 The Baysic developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -219,10 +219,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop LightPayCoin server.");
+            "\nStop BaysicCoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "LightPayCoin server stopping";
+    return "BaysicCoin server stopping";
 }
 
 
@@ -299,36 +299,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Lightpaycoin features */
-        {"lightpaycoin", "masternode", &masternode, true, true, false},
-        {"lightpaycoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"lightpaycoin", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"lightpaycoin", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"lightpaycoin", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"lightpaycoin", "masternodedebug", &masternodedebug, true, true, false},
-        {"lightpaycoin", "startmasternode", &startmasternode, true, true, false},
-        {"lightpaycoin", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"lightpaycoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"lightpaycoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"lightpaycoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"lightpaycoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"lightpaycoin", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"lightpaycoin", "mnbudget", &mnbudget, true, true, false},
-        {"lightpaycoin", "preparebudget", &preparebudget, true, true, false},
-        {"lightpaycoin", "submitbudget", &submitbudget, true, true, false},
-        {"lightpaycoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"lightpaycoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"lightpaycoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"lightpaycoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"lightpaycoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"lightpaycoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"lightpaycoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"lightpaycoin", "checkbudgets", &checkbudgets, true, true, false},
-        {"lightpaycoin", "mnsync", &mnsync, true, true, false},
-        {"lightpaycoin", "spork", &spork, true, true, false},
-        {"lightpaycoin", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Baysiccoin features */
+        {"baysiccoin", "masternode", &masternode, true, true, false},
+        {"baysiccoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"baysiccoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"baysiccoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"baysiccoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"baysiccoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"baysiccoin", "startmasternode", &startmasternode, true, true, false},
+        {"baysiccoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"baysiccoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"baysiccoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"baysiccoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"baysiccoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"baysiccoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"baysiccoin", "mnbudget", &mnbudget, true, true, false},
+        {"baysiccoin", "preparebudget", &preparebudget, true, true, false},
+        {"baysiccoin", "submitbudget", &submitbudget, true, true, false},
+        {"baysiccoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"baysiccoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"baysiccoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"baysiccoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"baysiccoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"baysiccoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"baysiccoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"baysiccoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"baysiccoin", "mnsync", &mnsync, true, true, false},
+        {"baysiccoin", "spork", &spork, true, true, false},
+        {"baysiccoin", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"lightpaycoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"baysiccoin", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -593,16 +593,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use lightpaycoind, or the -server option to lightpaycoin-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use baysiccoind, or the -server option to Baysiccoin-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=lightpaycoinrpc\n"
+                                               "rpcuser=baysiccoinrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"LightPayCoin Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"BaysicCoin Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1053,7 +1053,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> lightpaycoin-cli " + methodname + " " + args + "\n";
+    return "> baysiccoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
