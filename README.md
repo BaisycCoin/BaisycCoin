@@ -1,4 +1,4 @@
-baisyc-Coin Core Integration Repository
+Baisyc-Coin Core Integration Repository
 ======================================
 
 
