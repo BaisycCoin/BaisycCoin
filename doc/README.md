@@ -1,50 +1,68 @@
-baysic-Coin Core
+LightPayCoin Core
 =====================
 
 Setup
 ---------------------
-[baysic-Coin Core](https://github.com/baysic-Coin/bysc-Install) is the original baysic-Coin client and it builds the backbone of the network. However, it downloads and stores the entire history of baysic-Coin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[LightPayCoin Core](http://lightpaycoin.org/wallet) is the original LightPayCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of LightPayCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run baysic-Coin on your native platform.
+The following are some helpful notes on how to run LightPayCoin on your native platform.
 
 ### Unix
 
-Guide coming soon. 
+Unpack the files into a directory and run:
+
+- bin/32/lightpaycoin-qt (GUI, 32-bit) or bin/32/lightpaycoind (headless, 32-bit)
+- bin/64/lightpaycoin-qt (GUI, 64-bit) or bin/64/lightpaycoind (headless, 64-bit)
 
 ### Windows
 
- Guide coming soon. 
+Unpack the files into a directory, and then run lightpaycoin-qt.exe.
 
 ### OSX
 
-Guide coming soon. 
+Drag LightPayCoin-Qt to your applications folder, and then run LightPayCoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [baysic-Coin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [LightPayCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [baysic-Coin Forum](http://forum.baysic-Coin.org/).
-* Join one of our Slack groups [baysic-Coin Slack Groups](https://baysic-Coin.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [LightPayCoin Forum](http://forum.lightpaycoin.org/).
+* Join one of our Slack groups [LightPayCoin Slack Groups](https://lightpaycoin.org/slack-logins/).
+
+Building
+---------------------
+The following are developer notes on how to build LightPayCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+
+- [OSX Build Notes](build-osx.md)
+- [Unix Build Notes](build-unix.md)
+- [Gitian Building Guide](gitian-building.md)
 
 Development
 ---------------------
-The baysic-Coin repo's [root README](https://github.com/baysic-Coin/baysicCoin/blob/master/README.md) will contain all relevant information on the development process and automated testing.
+The Lightpaycoin repo's [root README](https://github.com/LightPayCoin-Project/LightPayCoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/) ***TODO***
+- [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
 
-* Discuss on the [BitcoinTalk]() or the [baysic-Coin]() forum.
-* Join the [baysic-Coin-Dev]() Discord group ([Sign-Up]()).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [LightPayCoin](http://forum.lightpaycoin.org/) forum.
+* Join the [LightPayCoin-Dev](https://lightpaycoin-dev.slack.com/) Slack group ([Sign-Up](https://lightpaycoin-dev.herokuapp.com/)).
 
+### Miscellaneous
+- [Assets Attribution](assets-attribution.md)
+- [Files](files.md)
+- [Tor Support](tor.md)
+- [Init Scripts (systemd/upstart/openrc)](init.md)
 
 License
 ---------------------
