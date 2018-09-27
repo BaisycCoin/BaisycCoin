@@ -1,6 +1,6 @@
 [Protocol]
-exec=lightpaycoin-qt '%u'
-protocol=lightpaycoin
+exec=baisyccoin-qt '%u'
+protocol=baisyccoin
 input=none
 output=none
 helper=true

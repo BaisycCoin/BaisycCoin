@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * LightPayCoin RPC command dispatcher.
+ * BaisycCoin RPC command dispatcher.
  */
 class CRPCTable
 {

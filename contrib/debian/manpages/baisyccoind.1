@@ -1,19 +1,19 @@
-.TH LPCD "1" "February 2017" "lightpaycoind 2.1.4.1"
+.TH BSYCD "1" "February 2017" "baisyccoind 2.1.4.1"
 .SH NAME
-Lightpaycoin \- peer-to-peer network based digital currency
+Baisyccoin \- peer-to-peer network based digital currency
 .SH SYNOPSIS
-lightpaycoind [options] <command> [params]
+baisyccoind [options] <command> [params]
 .TP
-lightpaycoind [options] help <command> \- Get help for a command
+baisyccoind [options] help <command> \- Get help for a command
 .SH DESCRIPTION
-This  manual page documents the lightpaycoind program. Lightpaycoin is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
+This  manual page documents the baisyccoind program. Baisyccoin is a peer-to-peer digital currency. Peer-to-peer (P2P) means that there is no central authority to issue new money or keep track of transactions. Instead, these tasks are managed collectively by the nodes of the network. Advantages:
 
-Lightpaycoin can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the Lightpaycoin system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
+Baisyccoin can be sent easily through the Internet, without having to trust middlemen. Transactions are designed to be irreversible. Be safe from instability caused by fractional reserve banking and central banks. The limited inflation of the Baisyccoin system’s money supply is distributed evenly (by CPU power) throughout the network, not monopolized by banks.
 
 .SH OPTIONS
 .TP
 \fB\-conf=\fR<file>
-Specify configuration file (default: lightpaycoin.conf)
+Specify configuration file (default: baisyccoin.conf)
 .TP
 \fB\-gen\fR
 Generate coins
@@ -84,14 +84,14 @@ This help message
 \fBbackupwallet 'destination'\fR
 Safely copies *wallet.dat* to 'destination', which can be a directory or a path with filename.
 .TP
-\fBgetaccount 'lightpaycoinaddress'\fR
+\fBgetaccount 'baisyccoinaddress'\fR
 Returns the account associated with the given address.
 .TP
-\fBsetaccount 'lightpaycoinaddress' ['account']\fR
+\fBsetaccount 'baisyccoinaddress' ['account']\fR
 Sets the ['account'] associated with the given address. ['account'] may be omitted to remove an address from ['account'].
 .TP
 \fBgetaccountaddress 'account'\fR
-Returns a new lightpaycoin address for 'account'.
+Returns a new baisyccoin address for 'account'.
 .TP
 \fBgetaddressesbyaccount 'account'\fR
 Returns the list of addresses associated with the given 'account'.
@@ -112,7 +112,7 @@ Returns the number of connections to other nodes.
 Returns the proof-of-work difficulty as a multiple of the minimum difficulty.
 .TP
 \fBgetgenerate\fR
-Returns boolean true if server is trying to generate LPC, false otherwise.
+Returns boolean true if server is trying to generate BSYC, false otherwise.
 .TP
 \fBsetgenerate 'generate' ['genproclimit']\fR
 Generation is limited to ['genproclimit'] processors, \-1 is unlimited.
@@ -124,13 +124,13 @@ Returns a recent hashes per second performance measurement while generating.
 Returns an object containing server information.
 .TP
 \fBgetnewaddress 'account'\fR
-Returns a new lightpaycoin address for receiving payments. If 'account' is specified (recommended), it is added to the address book so payments received with the address will be credited to 'account'.
+Returns a new baisyccoin address for receiving payments. If 'account' is specified (recommended), it is added to the address book so payments received with the address will be credited to 'account'.
 .TP
 \fBgetreceivedbyaccount 'account' ['minconf=1']\fR
 Returns the total amount received by addresses associated with 'account' in transactions with at least ['minconf'] confirmations.
 .TP
-\fBgetreceivedbyaddress 'lightpaycoinaddress' ['minconf=1']\fR
-Returns the total amount received by 'lightpaycoinaddress' in transactions with at least ['minconf'] confirmations.
+\fBgetreceivedbyaddress 'baisyccoinaddress' ['minconf=1']\fR
+Returns the total amount received by 'baisyccoinaddress' in transactions with at least ['minconf'] confirmations.
 .TP
 \fBgettransaction 'txid'\fR
 Returns information about a specific transaction, given hexadecimal transaction ID.
@@ -148,7 +148,7 @@ List commands, or get help for a command.
 .TP
 \fBlistaccounts ['minconf=1']\fR
 List accounts and their current balances.
-     *note: requires lightpaycoin 1.0.2.1 or later.
+     *note: requires baisyccoin 1.0.2.1 or later.
 .TP
 \fBlistreceivedbyaccount ['minconf=1'] ['includeempty=false']\fR
 ['minconf'] is the minimum number of confirmations before payments are included. ['includeempty'] whether to include addresses that haven't received any payments. Returns an array of objects containing:
@@ -177,31 +177,31 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
     "message"       : message associated with transaction (only for send).
     "to"            : message-to associated with transaction (only for send).
 
-    *note: requires lightpaycoin 1.0.2.1 or later.
+    *note: requires baisyccoin 1.0.2.1 or later.
 .TP
 \fBmove <'fromaccount'> <'toaccount'> <'amount'> ['minconf=1'] ['comment']\fR
 Moves funds between accounts.
 .TP
-\fBsendfrom* <'account'> <'lightpaycoinaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
-Sends amount from account's balance to 'lightpaycoinaddress'. This method will fail if there is less than amount LPC with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
+\fBsendfrom* <'account'> <'baisyccoinaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
+Sends amount from account's balance to 'baisyccoinaddress'. This method will fail if there is less than amount BSYC with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
 .TP
-\fBsendtoaddress 'lightpaycoinaddress' 'amount' ['comment'] ['comment-to']\fR
-Sends amount from the server's available balance to 'lightpaycoinaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
+\fBsendtoaddress 'baisyccoinaddress' 'amount' ['comment'] ['comment-to']\fR
+Sends amount from the server's available balance to 'baisyccoinaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
 .TP
 \fBstop\fR
-Stops the lightpaycoin server.
+Stops the baisyccoin server.
 .TP
-\fBvalidateaddress 'lightpaycoinaddress'\fR
-Checks that 'lightpaycoinaddress' looks like a proper Lightpaycoin address. Returns an object containing:
+\fBvalidateaddress 'baisyccoinaddress'\fR
+Checks that 'baisyccoinaddress' looks like a proper Baisyccoin address. Returns an object containing:
 
     "isvalid" : true or false.
     "ismine"  : true if the address is in the server's wallet.
-    "address" : lightpaycoinaddress.
+    "address" : baisyccoinaddress.
 
     *note: ismine and address are only returned if the address is valid.
 
 .SH "SEE ALSO"
-lightpaycoin.conf(5)
+baisyccoin.conf(5)
 .SH AUTHOR
 This manual page was written by Micah Anderson <micah@debian.org> for the Debian system (but may be used by others). Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 3 or any later version published by the Free Software Foundation.
 

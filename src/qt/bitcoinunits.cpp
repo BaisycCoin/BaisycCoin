@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LightPayCoin developers
+// Copyright (c) 2018 The BaisycCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(LPC);
-    unitlist.append(mLPC);
-    unitlist.append(uLPC);
+    unitlist.append(BSYC);
+    unitlist.append(mBSYC);
+    unitlist.append(uBSYC);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case LPC:
-    case mLPC:
-    case uLPC:
+    case BSYC:
+    case mBSYC:
+    case uBSYC:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case LPC:
-        return QString("lightpaycoin");
-    case mLPC:
-        return QString("mlightpaycoin");
-    case uLPC:
-        return QString::fromUtf8("ulightpaycoin");
+    case BSYC:
+        return QString("baisyccoin");
+    case mBSYC:
+        return QString("mbaisyccoin");
+    case uBSYC:
+        return QString::fromUtf8("ubaisyccoin");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case LPC:
-            return QString("LPC");
-        case mLPC:
-            return QString("mLPC");
-        case uLPC:
-            return QString::fromUtf8("μLPC");
+        case BSYC:
+            return QString("BSYC");
+        case mBSYC:
+            return QString("mBSYC");
+        case uBSYC:
+            return QString::fromUtf8("μBSYC");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case LPC:
-            return QString("tLPC");
-        case mLPC:
-            return QString("mtLPC");
-        case uLPC:
-            return QString::fromUtf8("μtLPC");
+        case BSYC:
+            return QString("tBSYC");
+        case mBSYC:
+            return QString("mtBSYC");
+        case uBSYC:
+            return QString::fromUtf8("μtBSYC");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case LPC:
-            return QString("LPC");
-        case mLPC:
-            return QString("Milli-LPC (1 / 1" THIN_SP_UTF8 "000)");
-        case uLPC:
-            return QString("Micro-LPC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case BSYC:
+            return QString("BSYC");
+        case mBSYC:
+            return QString("Milli-BSYC (1 / 1" THIN_SP_UTF8 "000)");
+        case uBSYC:
+            return QString("Micro-BSYC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case LPC:
-            return QString("TestLPCs");
-        case mLPC:
-            return QString("Milli-TestLPC (1 / 1" THIN_SP_UTF8 "000)");
-        case uLPC:
-            return QString("Micro-TestLPC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case BSYC:
+            return QString("TestBSYCs");
+        case mBSYC:
+            return QString("Milli-TestBSYC (1 / 1" THIN_SP_UTF8 "000)");
+        case uBSYC:
+            return QString("Micro-TestBSYC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case LPC:
+    case BSYC:
         return 100000000;
-    case mLPC:
+    case mBSYC:
         return 100000;
-    case uLPC:
+    case uBSYC:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case LPC:
+    case BSYC:
         return 8;
-    case mLPC:
+    case mBSYC:
         return 5;
-    case uLPC:
+    case uBSYC:
         return 2;
     default:
         return 0;

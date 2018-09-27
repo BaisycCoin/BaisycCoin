@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "LightPayCoin"
-            VALUE "FileDescription",    "LightPayCoin Core (OSS GUI client for LightPayCoin)"
+            VALUE "CompanyName",        "BaisycCoin"
+            VALUE "FileDescription",    "BaisycCoin Core (OSS GUI client for BaisycCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "lightpaycoin-qt"
+            VALUE "InternalName",       "baisyccoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "lightpaycoin-qt.exe"
-            VALUE "ProductName",        "LightPayCoin Core"
+            VALUE "OriginalFilename",   "baisyccoin-qt.exe"
+            VALUE "ProductName",        "BaisycCoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

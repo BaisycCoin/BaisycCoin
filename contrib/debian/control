@@ -1,4 +1,4 @@
-Source: lightpaycoin
+Source: baisyccoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk> ***TODO***
@@ -22,15 +22,15 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.lightpaycoin.org
-Vcs-Git: git://github.com/LightPayCoin-Project/LightPayCoin.git
-Vcs-Browser: http://github.com/LightPayCoin-Project/LightPayCoin
+Homepage: http://www.baisyccoin.org
+Vcs-Git: git://github.com/BaisycCoin-Project/BaisycCoin.git
+Vcs-Browser: http://github.com/BaisycCoin-Project/BaisycCoin
 
-Package: lightpaycoind
+Package: baisyccoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Lightpaycoin is a free open source peer-to-peer electronic cash system that
+ Baisyccoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -39,14 +39,14 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides the daemon, lightpaycoind, and the CLI tool
- lightpaycoin-cli to interact with the daemon.
+ This package provides the daemon, baisyccoind, and the CLI tool
+ baisyccoin-cli to interact with the daemon.
 
-Package: lightpaycoin-qt
+Package: baisyccoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Lightpaycoin is a free open source peer-to-peer electronic cash system that
+ Baisyccoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides Lightpaycoin-Qt, a GUI for Lightpaycoin based on Qt.
+ This package provides Baisyccoin-Qt, a GUI for Baisyccoin based on Qt.

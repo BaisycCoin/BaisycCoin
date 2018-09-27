@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/lightpaycoin-project/lightpaycoin
+url=https://github.com/baisyccoin-project/baisyccoin
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the lightpaycoin, gitian-builder, gitian.sigs, and lightpaycoin-detached-sigs.
+Run this script from the directory containing the baisyccoin, gitian-builder, gitian.sigs, and baisyccoin-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/lightpaycoin-project/lightpaycoin
+-u|--url	Specify the URL of the repository. Default is https://github.com/baisyccoin-project/baisyccoin
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -232,8 +232,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/lightpaycoin-project/gitian.sigs.git
-    git clone https://github.com/lightpaycoin-project/lightpaycoin-detached-sigs.git
+    git clone https://github.com/baisyccoin-project/gitian.sigs.git
+    git clone https://github.com/baisyccoin-project/baisyccoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./LightPayCoin
+pushd ./BaisycCoin
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./LightPayCoin-binaries/${VERSION}
+	mkdir -p ./BaisycCoin-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../LightPayCoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../BaisycCoin/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit lightpaycoin=${COMMIT} --url lightpaycoin=${url} ../LightPayCoin/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../LightPayCoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/lightpaycoin-*.tar.gz build/out/src/lightpaycoin-*.tar.gz ../LightPayCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit baisyccoin=${COMMIT} --url baisyccoin=${url} ../BaisycCoin/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../BaisycCoin/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/baisyccoin-*.tar.gz build/out/src/baisyccoin-*.tar.gz ../BaisycCoin-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit lightpaycoin=${COMMIT} --url lightpaycoin=${url} ../LightPayCoin/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../LightPayCoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/lightpaycoin-*-win-unsigned.tar.gz inputs/lightpaycoin-win-unsigned.tar.gz
-	    mv build/out/lightpaycoin-*.zip build/out/lightpaycoin-*.exe ../LightPayCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit baisyccoin=${COMMIT} --url baisyccoin=${url} ../BaisycCoin/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../BaisycCoin/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/baisyccoin-*-win-unsigned.tar.gz inputs/baisyccoin-win-unsigned.tar.gz
+	    mv build/out/baisyccoin-*.zip build/out/baisyccoin-*.exe ../BaisycCoin-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit lightpaycoin=${COMMIT} --url lightpaycoin=${url} ../LightPayCoin/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../LightPayCoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/lightpaycoin-*-osx-unsigned.tar.gz inputs/lightpaycoin-osx-unsigned.tar.gz
-	    mv build/out/lightpaycoin-*.tar.gz build/out/lightpaycoin-*.dmg ../LightPayCoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit baisyccoin=${COMMIT} --url baisyccoin=${url} ../BaisycCoin/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../BaisycCoin/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/baisyccoin-*-osx-unsigned.tar.gz inputs/baisyccoin-osx-unsigned.tar.gz
+	    mv build/out/baisyccoin-*.tar.gz build/out/baisyccoin-*.dmg ../BaisycCoin-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../LightPayCoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../BaisycCoin/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../LightPayCoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../BaisycCoin/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../LightPayCoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../BaisycCoin/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../LightPayCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../BaisycCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../LightPayCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../BaisycCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../LightPayCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../LightPayCoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/lightpaycoin-*win64-setup.exe ../LightPayCoin-binaries/${VERSION}
-	    mv build/out/lightpaycoin-*win32-setup.exe ../LightPayCoin-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../BaisycCoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../BaisycCoin/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/baisyccoin-*win64-setup.exe ../BaisycCoin-binaries/${VERSION}
+	    mv build/out/baisyccoin-*win32-setup.exe ../BaisycCoin-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../LightPayCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../LightPayCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/lightpaycoin-osx-signed.dmg ../LightPayCoin-binaries/${VERSION}/lightpaycoin-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../BaisycCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../BaisycCoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/baisyccoin-osx-signed.dmg ../BaisycCoin-binaries/${VERSION}/baisyccoin-${VERSION}-osx.dmg
 	fi
 	popd
 

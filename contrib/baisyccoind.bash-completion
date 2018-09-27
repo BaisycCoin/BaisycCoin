@@ -1,12 +1,12 @@
-# bash programmable completion for lightpaycoind(1) and lightpaycoin-cli(1)
+# bash programmable completion for baisyccoind(1) and baisyccoin-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have lightpaycoind && {
+have baisyccoind && {
 
-# call $lightpaycoind for RPC
-_lightpaycoin_rpc() {
+# call $baisyccoind for RPC
+_baisyccoin_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _lightpaycoin_rpc() {
                 ;;
         esac
     done
-    $lightpaycoind "${rpcargs[@]}" "$@"
+    $baisyccoind "${rpcargs[@]}" "$@"
 }
 
-# Add lightpaycoin accounts to COMPREPLY
-_lightpaycoin_accounts() {
+# Add baisyccoin accounts to COMPREPLY
+_baisyccoin_accounts() {
     local accounts
-    accounts=$(_lightpaycoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_baisyccoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_lightpaycoind() {
+_baisyccoind() {
     local cur prev words=() cword
-    local lightpaycoind
+    local baisyccoind
 
-    # save and use original argument to invoke lightpaycoind
-    # lightpaycoind might not be in $PATH
-    lightpaycoind="$1"
+    # save and use original argument to invoke baisyccoind
+    # baisyccoind might not be in $PATH
+    baisyccoind="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _lightpaycoind() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _lightpaycoin_accounts
+                _baisyccoin_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _lightpaycoind() {
                 return 0
                 ;;
             move|setaccount)
-                _lightpaycoin_accounts
+                _baisyccoin_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _lightpaycoind() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _lightpaycoin_accounts
+            _baisyccoin_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _lightpaycoind() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($lightpaycoind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($baisyccoind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_lightpaycoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_baisyccoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _lightpaycoind() {
     esac
 }
 
-complete -F _lightpaycoind lightpaycoind lightpaycoin-cli
+complete -F _baisyccoind baisyccoind baisyccoin-cli
 }
 
 # Local variables:

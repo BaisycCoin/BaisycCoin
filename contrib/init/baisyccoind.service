@@ -1,19 +1,19 @@
 [Unit]
-Description=LightPayCoin's distributed currency daemon
+Description=BaisycCoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=lightpaycoin
-Group=lightpaycoin
+User=baisyccoin
+Group=baisyccoin
 
 Type=forking
-PIDFile=/var/lib/lightpaycoind/lightpaycoind.pid
+PIDFile=/var/lib/baisyccoind/baisyccoind.pid
 
-ExecStart=/usr/bin/lightpaycoind -daemon -pid=/var/lib/lightpaycoind/lightpaycoind.pid \
-          -conf=/etc/lightpaycoin/lightpaycoin.conf -datadir=/var/lib/lightpaycoind
+ExecStart=/usr/bin/baisyccoind -daemon -pid=/var/lib/baisyccoind/baisyccoind.pid \
+          -conf=/etc/baisyccoin/baisyccoin.conf -datadir=/var/lib/baisyccoind
 
-ExecStop=-/usr/bin/lightpaycoin-cli -conf=/etc/lightpaycoin/lightpaycoin.conf \
-         -datadir=/var/lib/lightpaycoind stop
+ExecStop=-/usr/bin/baisyccoin-cli -conf=/etc/baisyccoin/baisyccoin.conf \
+         -datadir=/var/lib/baisyccoind stop
 
 Restart=always
 PrivateTmp=true

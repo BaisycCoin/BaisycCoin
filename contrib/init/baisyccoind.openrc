@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/lightpaycoin/.lightpaycoin" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/lightpaycoin/.lightpaycoin"
+if [ -d "/var/lib/baisyccoin/.baisyccoin" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/baisyccoin/.baisyccoin"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/lightpaycoind"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/baisyccoind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/lightpaycoin/lightpaycoin.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/lightpaycoind}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/lightpaycoind.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/baisyccoin/baisyccoin.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/baisyccoind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/baisyccoind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-lightpaycoin}
-BITCOIND_GROUP=${BITCOIND_GROUP:-lightpaycoin}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/lightpaycoind}
+BITCOIND_USER=${BITCOIND_USER:-baisyccoin}
+BITCOIND_GROUP=${BITCOIND_GROUP:-baisyccoin}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/baisyccoind}
 
-name="LightPayCoin Core Daemon"
-description="LightPayCoin crypto-currency p2p network daemon"
+name="BaisycCoin Core Daemon"
+description="BaisycCoin crypto-currency p2p network daemon"
 
-command="/usr/bin/lightpaycoind"
+command="/usr/bin/baisyccoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run lightpaycoind."
+		eerror "ERROR: You must set a secure rpcpassword to run baisyccoind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Lightpaycoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Baisyccoin Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

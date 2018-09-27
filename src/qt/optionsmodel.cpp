@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The LightPayCoin developers
+// Copyright (c) 2018 The BaisycCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/lightpaycoin-config.h"
+#include "config/baisyccoin-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::LPC);
+        settings.setValue("nDisplayUnit", BitcoinUnits::BSYC);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeLightpaycoinAmount"))
-        settings.setValue("nAnonymizeLightpaycoinAmount", 1000);
+    if (!settings.contains("nAnonymizeBaisyccoinAmount"))
+        settings.setValue("nAnonymizeBaisyccoinAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeLightpaycoinAmount = settings.value("nAnonymizeLightpaycoinAmount").toLongLong();
+    nAnonymizeBaisyccoinAmount = settings.value("nAnonymizeBaisyccoinAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeLightpaycoinAmount"))
-        SoftSetArg("-anonymizelightpaycoinamount", settings.value("nAnonymizeLightpaycoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeBaisyccoinAmount"))
+        SoftSetArg("-anonymizebaisyccoinamount", settings.value("nAnonymizeBaisyccoinAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in lightpaycoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in baisyccoin.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeLightpaycoinAmount:
-            return QVariant(nAnonymizeLightpaycoinAmount);
+        case AnonymizeBaisyccoinAmount:
+            return QVariant(nAnonymizeBaisyccoinAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeLightpaycoinAmount:
-            nAnonymizeLightpaycoinAmount = value.toInt();
-            settings.setValue("nAnonymizeLightpaycoinAmount", nAnonymizeLightpaycoinAmount);
-            emit anonymizeLightpaycoinAmountChanged(nAnonymizeLightpaycoinAmount);
+        case AnonymizeBaisyccoinAmount:
+            nAnonymizeBaisyccoinAmount = value.toInt();
+            settings.setValue("nAnonymizeBaisyccoinAmount", nAnonymizeBaisyccoinAmount);
+            emit anonymizeBaisyccoinAmountChanged(nAnonymizeBaisyccoinAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();
