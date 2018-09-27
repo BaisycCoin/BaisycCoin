@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi LightPayCoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your BaisycCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi BaisycCoin per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi LightPayCoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your BaisycCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi BaisycCoin per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>LightPayCoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi LPC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>BaisycCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BSYCs from being stolen by malware infecting your computer.</source>
+        <translation>BaisycCoin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BSYC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI LPC&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BSYC&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI BSYC&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Lightpaycoin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a Baisyccoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo Baisyccoin che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>L'indirizzo LightPayCoin per firmare il messaggio con</translation>
+        <source>The BaisycCoin address to sign the message with</source>
+        <translation>L'indirizzo BaisycCoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo LightPayCoin</translation>
+        <source>Sign the message to prove you own this BaisycCoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BaisycCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>L'indirizzo LightPayCoin con cui è stato firmato il messaggio</translation>
+        <source>The BaisycCoin address the message was signed with</source>
+        <translation>L'indirizzo BaisycCoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo LightPayCoin specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified BaisycCoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BaisycCoin specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>Invia monete all' indirizzo LightPayCoin</translation>
+        <source>Send coins to a BaisycCoin address</source>
+        <translation>Invia monete all' indirizzo BaisycCoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e lightpaycoin: URIs)</translation>
+        <source>Request payments (generates QR codes and baisyccoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e baisyccoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>&amp;Informazioni LightPayCoin Core</translation>
+        <source>&amp;About BaisycCoin Core</source>
+        <translation>&amp;Informazioni BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LightPayCoin Core</source>
-        <translation>Visualizza informazioni su LightPayCoin Core</translation>
+        <source>Show information about BaisycCoin Core</source>
+        <translation>Visualizza informazioni su BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Modifica le opzioni di configurazione per LightPayCoin</translation>
+        <source>Modify configuration options for BaisycCoin</source>
+        <translation>Modifica le opzioni di configurazione per BaisycCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi LightPayCoin per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your BaisycCoin addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi BaisycCoin per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi LightPayCoin specifici</translation>
+        <source>Verify messages to ensure they were signed with specified BaisycCoin addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi BaisycCoin specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a LightPayCoin: URI or payment request</source>
-        <translation>Apri un LightPayCoin: URI o richiesta di pagamento</translation>
+        <source>Open a BaisycCoin: URI or payment request</source>
+        <translation>Apri un BaisycCoin: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the LightPayCoin Core help message to get a list with possible LightPayCoin command-line options</source>
-        <translation>Mostra il messaggio di aiuto LightPayCoin Core per ottenere un elenco con le possibili opzioni di riga di comando LightPayCoin</translation>
+        <source>Show the BaisycCoin Core help message to get a list with possible BaisycCoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto BaisycCoin Core per ottenere un elenco con le possibili opzioni di riga di comando BaisycCoin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (lightpaycoin.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (baisyccoin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (baisyccoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -893,8 +893,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -920,8 +920,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>L'indirizzo LightPayCoin per firmare il messaggio con</translation>
+        <source>The BaisycCoin address to sign the message with</source>
+        <translation>L'indirizzo BaisycCoin per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo LightPayCoin</translation>
+        <source>Sign the message to prove you own this BaisycCoin address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BaisycCoin</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>L'indirizzo LightPayCoin con cui è stato firmato il messaggio</translation>
+        <source>The BaisycCoin address the message was signed with</source>
+        <translation>L'indirizzo BaisycCoin con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo LightPayCoin specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified BaisycCoin address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BaisycCoin specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1177,8 +1177,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     </context>
 <context>
@@ -1273,7 +1273,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>baisyccoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

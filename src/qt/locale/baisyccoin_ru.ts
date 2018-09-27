@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши LightPayCoin-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your BaisycCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши BaisycCoin-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши LightPayCoin-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your BaisycCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши BaisycCoin-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>LightPayCoin сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши LightPayCoin от кражи с использованием вредоносного ПО.</translation>
+        <source>BaisycCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BSYCs from being stolen by malware infecting your computer.</source>
+        <translation>BaisycCoin сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши BaisycCoin от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ LPC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BSYC&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ BSYC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите LightPayCoin адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a Baisyccoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите BaisycCoin адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>Адрес LightPayCoin для подписи сообщения с помощью</translation>
+        <source>The BaisycCoin address to sign the message with</source>
+        <translation>Адрес BaisycCoin для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес LightPayCoin</translation>
+        <source>Sign the message to prove you own this BaisycCoin address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес BaisycCoin</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>Адрес LightPayCoin, которым подписано сообщение</translation>
+        <source>The BaisycCoin address the message was signed with</source>
+        <translation>Адрес BaisycCoin, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным LightPayCoin адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified BaisycCoin address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным BaisycCoin адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,16 +594,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>Отправить монеты на LightPayCoin адрес</translation>
+        <source>Send coins to a BaisycCoin address</source>
+        <translation>Отправить монеты на BaisycCoin адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и LightPayCoin: URI)</translation>
+        <source>Request payments (generates QR codes and baisyccoin: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и BaisycCoin: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -614,24 +614,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>&amp;О LightPayCoin Core</translation>
+        <source>&amp;About BaisycCoin Core</source>
+        <translation>&amp;О BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LightPayCoin Core</source>
-        <translation>Показать информацию о LightPayCoin Core</translation>
+        <source>Show information about BaisycCoin Core</source>
+        <translation>Показать информацию о BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Изменение параметров конфигурации LightPayCoin</translation>
+        <source>Modify configuration options for BaisycCoin</source>
+        <translation>Изменение параметров конфигурации BaisycCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими LightPayCoin адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your BaisycCoin addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими BaisycCoin адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным LightPayCoin адресом </translation>
+        <source>Verify messages to ensure they were signed with specified BaisycCoin addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным BaisycCoin адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -662,8 +662,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a LightPayCoin: URI or payment request</source>
-        <translation>Открыть LightPayCoin: URI или запрос платежа</translation>
+        <source>Open a BaisycCoin: URI or payment request</source>
+        <translation>Открыть BaisycCoin: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -674,16 +674,16 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the LightPayCoin Core help message to get a list with possible LightPayCoin command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды LightPayCoin</translation>
+        <source>Show the BaisycCoin Core help message to get a list with possible BaisycCoin command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды BaisycCoin</translation>
     </message>
     <message>
-        <source>LightPayCoin Core client</source>
-        <translation>Клиент LightPayCoin Core</translation>
+        <source>BaisycCoin Core client</source>
+        <translation>Клиент BaisycCoin Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to LightPayCoin network</source>
-        <translation><numerusform>%n активное подключение к сети LightPayCoin</numerusform><numerusform>%n активных подключений к сети LightPayCoin</numerusform><numerusform>%n активных подключений к сети LightPayCoin</numerusform><numerusform>%n активных подключений к сети LightPayCoin</numerusform></translation>
+        <source>%n active connection(s) to BaisycCoin network</source>
+        <translation><numerusform>%n активное подключение к сети BaisycCoin</numerusform><numerusform>%n активных подключений к сети BaisycCoin</numerusform><numerusform>%n активных подключений к сети BaisycCoin</numerusform><numerusform>%n активных подключений к сети BaisycCoin</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -837,8 +837,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (lightpaycoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (baisyccoin.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (baisyccoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LightPayCoin address.</source>
-        <translation>Введенный адрес "%1" не является LightPayCoin адресом.</translation>
+        <source>The entered address "%1" is not a valid BaisycCoin address.</source>
+        <translation>Введенный адрес "%1" не является BaisycCoin адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About LightPayCoin Core</source>
-        <translation>О LightPayCoin Core</translation>
+        <source>About BaisycCoin Core</source>
+        <translation>О BaisycCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to LightPayCoin Core.</source>
-        <translation>Добро пожаловать в LightPayCoin Core.</translation>
+        <source>Welcome to BaisycCoin Core.</source>
+        <translation>Добро пожаловать в BaisycCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LightPayCoin Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные LightPayCoin Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where BaisycCoin Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные BaisycCoin Core.</translation>
     </message>
     <message>
-        <source>LightPayCoin Core will download and store a copy of the LightPayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LightPayCoin Core загрузит и сохранит копию цепочки блоков LightPayCoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>BaisycCoin Core will download and store a copy of the BaisycCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BaisycCoin Core загрузит и сохранит копию цепочки блоков BaisycCoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other LightPayCoin addresses after it matures.
-To Add: enter percentage to give and LightPayCoin address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other BaisycCoin addresses after it matures.
+To Add: enter percentage to give and BaisycCoin address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие LightPayCoin адреса.
-Для добавления: введите передаваемый процент и LightPayCoin адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие BaisycCoin адреса.
+Для добавления: введите передаваемый процент и BaisycCoin адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1544,48 +1544,48 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 LPC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 BSYC</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 BSYC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 LPC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 BSYC</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 BSYC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LPC to anonymize 10000 LPC</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 LPC для анонимизации 10000 LPC</translation>
+        <source>This option is the quickest and will cost about ~0.025 BSYC to anonymize 10000 BSYC</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 BSYC для анонимизации 10000 BSYC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LPC to anonymize 10000 LPC</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 LPC для анонимизации 10000 LPC</translation>
+        <source>This option is moderately fast and will cost about 0.05 BSYC to anonymize 10000 BSYC</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 BSYC для анонимизации 10000 BSYC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 LPC per 10000 LPC you anonymize.</source>
-        <translation>0.1 LPC за 10000 LPC которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 BSYC per 10000 BSYC you anonymize.</source>
+        <translation>0.1 BSYC за 10000 BSYC которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Настройка Перемешивания</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening LightPayCoin's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки LightPayCoin.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening BaisycCoin's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки BaisycCoin.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening LightPayCoin's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки LightPayCoin.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening BaisycCoin's configuration screen.</source>
+        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки BaisycCoin.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening LightPayCoin's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки LightPayCoin.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening BaisycCoin's configuration screen.</source>
+        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки BaisycCoin.</translation>
     </message>
 </context>
 <context>
@@ -1646,8 +1646,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the LightPayCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт LightPayCoin через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the BaisycCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт BaisycCoin через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1666,12 +1666,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start LightPayCoin after logging in to the system.</source>
-        <translation>Автоматически запускать LightPayCoin после входа в систему.</translation>
+        <source>Automatically start BaisycCoin after logging in to the system.</source>
+        <translation>Автоматически запускать BaisycCoin после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start LightPayCoin on system login</source>
-        <translation>&amp;Запускать LightPayCoin при входе в систему</translation>
+        <source>&amp;Start BaisycCoin on system login</source>
+        <translation>&amp;Запускать BaisycCoin при входе в систему</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1686,8 +1686,8 @@ Please check the address and try again.</source>
         <translation>При достижении этого значения Перемешивание будет отключено.</translation>
     </message>
     <message>
-        <source>Amount of LightPayCoin to keep anonymized</source>
-        <translation>Количество LightPayCoin, держащихся анонимизированными</translation>
+        <source>Amount of BaisycCoin to keep anonymized</source>
+        <translation>Количество BaisycCoin, держащихся анонимизированными</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1714,22 +1714,22 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting LightPayCoin.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска LightPayCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting BaisycCoin.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска BaisycCoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</source>
+https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations</translation>
+https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the LightPayCoin network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети LightPayCoin через SOCKS5 прокси.</translation>
+        <source>Connect to the BaisycCoin network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети BaisycCoin через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1883,8 +1883,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Балансы</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LightPayCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью LightPayCoin после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BaisycCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью BaisycCoin после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,8 +1927,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Баланс Обфускации</translation>
     </message>
     <message>
-        <source>0 LPC / 0 Rounds</source>
-        <translation>0 LPC / 0 Циклов</translation>
+        <source>0 BSYC / 0 Rounds</source>
+        <translation>0 BSYC / 0 Циклов</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2080,12 +2080,12 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start lightpaycoin: click-to-pay handler</source>
-        <translation>Не удалось запустить lightpaycoin: обработчик click-to-pay </translation>
+        <source>Cannot start baisyccoin: click-to-pay handler</source>
+        <translation>Не удалось запустить baisyccoin: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid LightPayCoin address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный LightPayCoin адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid BaisycCoin address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный BaisycCoin адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2170,8 +2170,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a LightPayCoin address (e.g. %1)</source>
-        <translation>Введите адрес LightPayCoin (например %1)</translation>
+        <source>Enter a BaisycCoin address (e.g. %1)</source>
+        <translation>Введите адрес BaisycCoin (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2304,8 +2304,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the LightPayCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки LightPayCoin. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the BaisycCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки BaisycCoin. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2465,8 +2465,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the LightPayCoin RPC console.</source>
-        <translation>Добро пожаловать в окружение LightPayCoin RPC.</translation>
+        <source>Welcome to the BaisycCoin RPC console.</source>
+        <translation>Добро пожаловать в окружение BaisycCoin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2685,8 +2685,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 LPC</source>
-        <translation>0 LPC</translation>
+        <source>0 BSYC</source>
+        <translation>0 BSYC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2769,8 +2769,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid LightPayCoin address</source>
-        <translation>Предупреждение: неправильный LightPayCoin адрес</translation>
+        <source>Warning: Invalid BaisycCoin address</source>
+        <translation>Предупреждение: неправильный BaisycCoin адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2823,8 +2823,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>LightPayCoin Core is shutting down...</source>
-        <translation>LightPayCoin Core выключается...</translation>
+        <source>BaisycCoin Core is shutting down...</source>
+        <translation>BaisycCoin Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2834,8 +2834,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>Адрес LightPayCoin для подписи сообщения с помощью</translation>
+        <source>The BaisycCoin address to sign the message with</source>
+        <translation>Адрес BaisycCoin для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2858,16 +2858,16 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес LightPayCoin</translation>
+        <source>Sign the message to prove you own this BaisycCoin address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес BaisycCoin</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>Адрес LightPayCoin, которым подписано сообщение</translation>
+        <source>The BaisycCoin address the message was signed with</source>
+        <translation>Адрес BaisycCoin, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным LightPayCoin адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified BaisycCoin address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным BaisycCoin адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2913,8 +2913,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2929,8 +2929,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>Разработчики LightPayCoin Core</translation>
+        <source>The BaisycCoin Core developers</source>
+        <translation>Разработчики BaisycCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3181,7 +3181,7 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>baisyccoin-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -3215,8 +3215,8 @@ https://www.transifex.com/lightpaycoin-project/lightpaycoin-project-translations
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The LightPayCoin Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики LightPayCoin Core</translation>
+        <source>Copyright (C) 2015-%i The BaisycCoin Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики BaisycCoin Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

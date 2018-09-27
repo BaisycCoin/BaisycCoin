@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše LightPayCoin adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your BaisycCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše BaisycCoin adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your LightPayCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše LightPayCoin adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your BaisycCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše BaisycCoin adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>LightPayCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LPCs from being stolen by malware infecting your computer.</source>
-        <translation>LightPayCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše LPCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>BaisycCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BSYCs from being stolen by malware infecting your computer.</source>
+        <translation>BaisycCoin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše BSYCy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE LPCy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BSYC&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE BSYCy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Lightpaycoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte LightPayCoin adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Baisyccoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte BaisycCoin adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>LightPayCoin adresa pro podepsání zprávy</translation>
+        <source>The BaisycCoin address to sign the message with</source>
+        <translation>BaisycCoin adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto LightPayCoin adresu</translation>
+        <source>Sign the message to prove you own this BaisycCoin address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto BaisycCoin adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>LightPayCoin adresa zprávy byla podpsána</translation>
+        <source>The BaisycCoin address the message was signed with</source>
+        <translation>BaisycCoin adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou LightPayCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified BaisycCoin address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou BaisycCoin adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Send coins to a LightPayCoin address</source>
-        <translation>Odeslat platbuna LightPayCoin adresu</translation>
+        <source>Send coins to a BaisycCoin address</source>
+        <translation>Odeslat platbuna BaisycCoin adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and lightpaycoin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a lightpaycoin: URIs)</translation>
+        <source>Request payments (generates QR codes and baisyccoin: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a baisyccoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>&amp;O LightPayCoin Core</translation>
+        <source>&amp;About BaisycCoin Core</source>
+        <translation>&amp;O BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Show information about LightPayCoin Core</source>
-        <translation>Zobraz informace o LightPayCoin Core</translation>
+        <source>Show information about BaisycCoin Core</source>
+        <translation>Zobraz informace o BaisycCoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for LightPayCoin</source>
-        <translation>Upravit možnosti konfigurace pro LightPayCoin</translation>
+        <source>Modify configuration options for BaisycCoin</source>
+        <translation>Upravit možnosti konfigurace pro BaisycCoin</translation>
     </message>
     <message>
-        <source>Sign messages with your LightPayCoin addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší LightPayCoin adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your BaisycCoin addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší BaisycCoin adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified LightPayCoin addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými LightPayCoin adresami</translation>
+        <source>Verify messages to ensure they were signed with specified BaisycCoin addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými BaisycCoin adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a LightPayCoin: URI or payment request</source>
-        <translation>Otevřít LightPayCoin: URI nebo platební žádost</translation>
+        <source>Open a BaisycCoin: URI or payment request</source>
+        <translation>Otevřít BaisycCoin: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the LightPayCoin Core help message to get a list with possible LightPayCoin command-line options</source>
-        <translation>Zobrazit LightPayCoin Core pomocnou zpráv pro získání seznamu možných parametrů LightPayCoin pro příkazy do příkazové řádky</translation>
+        <source>Show the BaisycCoin Core help message to get a list with possible BaisycCoin command-line options</source>
+        <translation>Zobrazit BaisycCoin Core pomocnou zpráv pro získání seznamu možných parametrů BaisycCoin pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>LightPayCoin Core client</source>
-        <translation>LightPayCoin Core klient</translation>
+        <source>BaisycCoin Core client</source>
+        <translation>BaisycCoin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -809,8 +809,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (lightpaycoin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (lightpaycoin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (baisyccoin.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (baisyccoin.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1070,8 +1070,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LightPayCoin address.</source>
-        <translation>Zadaná adresa "%1" není validní LightPayCoin adresa.</translation>
+        <source>The entered address "%1" is not a valid BaisycCoin address.</source>
+        <translation>Zadaná adresa "%1" není validní BaisycCoin adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1116,12 +1116,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
-        <source>About LightPayCoin Core</source>
-        <translation>O LightPayCoin Core</translation>
+        <source>About BaisycCoin Core</source>
+        <translation>O BaisycCoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1155,16 +1155,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to LightPayCoin Core.</source>
-        <translation>Vítejte v LightPayCoin Core.</translation>
+        <source>Welcome to BaisycCoin Core.</source>
+        <translation>Vítejte v BaisycCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where LightPayCoin Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude LightPayCoin Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where BaisycCoin Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude BaisycCoin Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>LightPayCoin Core will download and store a copy of the LightPayCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LightPayCoin Core stáhne a uloží kopii LightPayCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>BaisycCoin Core will download and store a copy of the BaisycCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>BaisycCoin Core stáhne a uloží kopii BaisycCoin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1442,24 +1442,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 LPC</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 LPC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 BSYC</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 BSYC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LPC to anonymize 10000 LPC</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 LPC pro anonymizaci 10000 LPC</translation>
+        <source>This option is the quickest and will cost about ~0.025 BSYC to anonymize 10000 BSYC</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 BSYC pro anonymizaci 10000 BSYC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 LPC per 10000 LPC you anonymize.</source>
-        <translation>0.1 LPC za 10000 LPC anonymizujete.</translation>
+        <source>0.1 BSYC per 10000 BSYC you anonymize.</source>
+        <translation>0.1 BSYC za 10000 BSYC anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1524,16 +1524,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start LightPayCoin after logging in to the system.</source>
-        <translation>Automaticky spustit LightPayCoin po přihlášení do systému</translation>
+        <source>Automatically start BaisycCoin after logging in to the system.</source>
+        <translation>Automaticky spustit BaisycCoin po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start LightPayCoin on system login</source>
-        <translation>&amp;Spusti LightPayCoin při přihlášení do systému</translation>
+        <source>&amp;Start BaisycCoin on system login</source>
+        <translation>&amp;Spusti BaisycCoin při přihlášení do systému</translation>
     </message>
     <message>
-        <source>Amount of LightPayCoin to keep anonymized</source>
-        <translation>Počet LightPayCoin pro anonymní držení</translation>
+        <source>Amount of BaisycCoin to keep anonymized</source>
+        <translation>Počet BaisycCoin pro anonymní držení</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1639,8 +1639,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Obfuskační Balance:</translation>
     </message>
     <message>
-        <source>0 LPC / 0 Rounds</source>
-        <translation>0 LPC / 0 Kol</translation>
+        <source>0 BSYC / 0 Rounds</source>
+        <translation>0 BSYC / 0 Kol</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2066,8 +2066,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 LPC</source>
-        <translation>0 LPC</translation>
+        <source>0 BSYC</source>
+        <translation>0 BSYC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2199,8 +2199,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The LightPayCoin address to sign the message with</source>
-        <translation>LightPayCoin adresa pro podepsání zprávy</translation>
+        <source>The BaisycCoin address to sign the message with</source>
+        <translation>BaisycCoin adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2227,16 +2227,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this LightPayCoin address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto LightPayCoin adresu</translation>
+        <source>Sign the message to prove you own this BaisycCoin address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto BaisycCoin adresu</translation>
     </message>
     <message>
-        <source>The LightPayCoin address the message was signed with</source>
-        <translation>LightPayCoin adresa zprávy byla podpsána</translation>
+        <source>The BaisycCoin address the message was signed with</source>
+        <translation>BaisycCoin adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified LightPayCoin address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou LightPayCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified BaisycCoin address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou BaisycCoin adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2278,8 +2278,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     </context>
 <context>
@@ -2382,7 +2382,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>baisyccoin-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

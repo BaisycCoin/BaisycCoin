@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LPC&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES LPCS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BSYC&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BSYCS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
-        <source>&amp;About LightPayCoin Core</source>
-        <translation>&amp;Sobre LightPayCoin Core</translation>
+        <source>&amp;About BaisycCoin Core</source>
+        <translation>&amp;Sobre BaisycCoin Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
-        <source>About LightPayCoin Core</source>
-        <translation>Sobre LightPayCoin Core</translation>
+        <source>About BaisycCoin Core</source>
+        <translation>Sobre BaisycCoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to LightPayCoin Core.</source>
-        <translation>Benvingut a LightPayCoin Core.</translation>
+        <source>Welcome to BaisycCoin Core.</source>
+        <translation>Benvingut a BaisycCoin Core.</translation>
     </message>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1132,8 +1132,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>LightPayCoin Core</source>
-        <translation>LightPayCoin Core</translation>
+        <source>BaisycCoin Core</source>
+        <translation>BaisycCoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1292,7 +1292,7 @@
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>baisyccoin-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>
