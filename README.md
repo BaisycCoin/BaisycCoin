@@ -2,7 +2,7 @@ BaisycCoin (fork of LightPayCoin) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/bsycproject/bsycinstall) to install a BaisycCoin Masternode on a Linux server running Ubuntu 16.04 or 18.04
+It is recommended [use the shell script](https://github.com/BaisycCoin/bsycInstall) to install a BaisycCoin Masternode on a Linux server running Ubuntu 16.04 or 18.04
 
 ***
 
@@ -19,7 +19,7 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     cd
-    git clone https://github.com/bsycproject/BaisycCoin.git
+    git clone https://github.com/BaisycCoin/BaisycCoin.git
     cd BaisycCoin
     ./autogen.sh
     ./configure
