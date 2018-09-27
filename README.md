@@ -45,7 +45,7 @@ Demon status:
 
 All binaries for different operating systems, you can download in the releases repository:
 
-https://github.com/bsycproject/BaisycCoin/releases
+https://github.com/BaisycCoin/BaisycCoin/releases
 
 P2P port: 64578, RPC port: 64579
 -
