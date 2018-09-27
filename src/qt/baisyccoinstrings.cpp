@@ -240,7 +240,7 @@ QT_TRANSLATE_NOOP("baisyccoin-core", "Connect to a node to retrieve peer address
 QT_TRANSLATE_NOOP("baisyccoin-core", "Connection options:"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("baisyccoin-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
+QT_TRANSLATE_NOOP("baisyccoin-core", "Copyright (C) 2015-%i The LightPayCoin Core Developers"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Copyright (C) 2018 The BaisycCoin Core Developers"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Could not parse -rpcbind value %s as network address"),
