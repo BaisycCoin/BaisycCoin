@@ -3,7 +3,7 @@ BaisycCoin Core
 
 Setup
 ---------------------
-[BaisycCoin Core](http://baisyccoin.org/wallet) is the original BaisycCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of BaisycCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[BaisycCoin Core](http://baisyccoin.io/wallet) is the original BaisycCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of BaisycCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
