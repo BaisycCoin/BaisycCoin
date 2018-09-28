@@ -29,7 +29,7 @@ Drag BaisycCoin-Qt to your applications folder, and then run BaisycCoin-Qt.
 * See the documentation at the [BaisycCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BaisycCoin Forum](http://forum.baisyccoin.org/).
-* Join one of our Slack groups [BaisycCoin Slack Groups](https://baisyccoin.org/slack-logins/).
+* Join our DIscord Server  [BaisycCoin Discord Server](https://baisyccoin.org/slack-logins/).
 
 Building
 ---------------------
@@ -56,7 +56,7 @@ The Baisyccoin repo's [root README](https://github.com/BaisycCoin-Project/Baisyc
 ### Resources
 
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [BaisycCoin](http://forum.baisyccoin.org/) forum.
-* Join the [BaisycCoin-Dev](https://baisyccoin-dev.slack.com/) Slack group ([Sign-Up](https://baisyccoin-dev.herokuapp.com/)).
+* Join the [BaisycCoin-Dev](https://baisyccoin-dev.slack.com/) Discord channel ([Sign-Up](https://baisyccoin-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
