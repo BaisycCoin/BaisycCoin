@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "BaisycCoin"
-#define QAPP_ORG_DOMAIN "baisyccoin.org"
+#define QAPP_ORG_DOMAIN "baisyccoin.io"
 #define QAPP_APP_NAME_DEFAULT "BaisycCoin-Qt"
 #define QAPP_APP_NAME_TESTNET "BaisycCoin-Qt-testnet"
 
