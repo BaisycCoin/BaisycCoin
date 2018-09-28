@@ -28,7 +28,7 @@ Drag BaisycCoin-Qt to your applications folder, and then run BaisycCoin-Qt.
 
 * See the documentation at the [BaisycCoin Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BaisycCoin Forum](http://forum.baisyccoin.org/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [BaisycCoin Forum](http://forum.baisyccoin.io/).
 * Join our DIscord Server  [BaisycCoin Discord Server](https://discord.gg/r9Stpkr).
 
 Building
