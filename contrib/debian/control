@@ -22,7 +22,7 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.baisyccoin.org
+Homepage: http://www.baisyccoin.io
 Vcs-Git: git://github.com/BaisycCoin-Project/BaisycCoin.git
 Vcs-Browser: http://github.com/BaisycCoin-Project/BaisycCoin
 
