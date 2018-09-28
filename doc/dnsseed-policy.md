@@ -46,7 +46,7 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active BaisycCoin
 Core development team as well as posting on the
-[BaisycCoin Forum](https://forum.baisyccoin.org).
+[BaisycCoin Forum](https://forum.baisyccoin.io).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.
