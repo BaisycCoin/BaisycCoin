@@ -2163,8 +2163,8 @@ Please check the address and try again.</source>
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
-        <translation>Dash Core kehittäjät</translation>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX Core kehittäjät</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>

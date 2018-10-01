@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015 The Dash Developers
+// Copyright (c) 2016-2018 The PIVX Developers
 // Copyright (c) 2018 The LightPayCoin developers
 // Copyright (c) 2018 The BaisycCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying

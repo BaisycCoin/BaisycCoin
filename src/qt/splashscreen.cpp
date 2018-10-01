@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2016-2018 The PIVX developers
 // Copyright (c) 2018 The LightPayCoin developers
 // Copyright (c) 2018 The BaisycCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -37,7 +37,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     QString titleText = tr("BaisycCoin Core");
     QString versionText = QString(tr("Version %1")).arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightTextBtc = QChar(0xA9) + QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
-    QString copyrightTextDash = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Dash Core developers"));
+    QString copyrightTextPIVX = QChar(0xA9) + QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The PIVX Core developers"));
     QString copyrightTextPivx = QChar(0xA9) + QString(" 2015-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The LightPayCoin Core developers"));
 	QString copyrightTextBsyc = QChar(0xA9) + QString(tr(" 2018 The BaisycCoin Core developers"));
     QString titleAddText = networkStyle->getTitleAddText();
@@ -70,7 +70,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     // draw copyright stuff
     pixPaint.setFont(QFont(font, 10 * fontFactor));
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace, copyrightTextBtc);
-    pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 12, copyrightTextDash);
+    pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 12, copyrightTextPIVX);
     pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 24, copyrightTextPivx);
 	pixPaint.drawText(paddingLeft, paddingTop + titleCopyrightVSpace + 36, copyrightTextBsyc);
 

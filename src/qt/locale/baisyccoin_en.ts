@@ -4217,7 +4217,7 @@ https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</so
     </message>
     <message>
         <location line="+1"/>
-        <source>The Dash Core developers</source>
+        <source>The PIVX Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5466,7 +5466,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BaisycCoin Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Dash Core Developers</source>
+        <source>Copyright (C) 2014-%i The PIVX Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

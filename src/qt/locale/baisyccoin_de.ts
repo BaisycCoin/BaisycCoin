@@ -2275,8 +2275,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Die Bitcoin Core Entwickler</translation>
     </message>
     <message>
-        <source>The Dash Core developers</source>
-        <translation>Die Dash Core Entwickler</translation>
+        <source>The PIVX Core developers</source>
+        <translation>Die PIVX Core Entwickler</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>

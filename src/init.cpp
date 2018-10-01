@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Dash developers
+// Copyright (c) 2016-2018 The PIVX developers
 // Copyright (c) 2018 The LightPayCoin developers
 // Copyright (c) 2018 The BaisycCoin developers
 // Distributed under the MIT software license, see the accompanying
@@ -507,7 +507,7 @@ std::string LicenseInfo()
 {
     return FormatParagraph(strprintf(_("Copyright (C) 2009-%i The Bitcoin Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2014-%i The Dash Core Developers"), COPYRIGHT_YEAR)) + "\n" +
+           FormatParagraph(strprintf(_("Copyright (C) 2014-%i The PIVX Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
            FormatParagraph(strprintf(_("Copyright (C) 2015-%i The LightPayCoin Core Developers"), COPYRIGHT_YEAR)) + "\n" +
            "\n" +
