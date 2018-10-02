@@ -2163,8 +2163,8 @@ Please check the address and try again.</source>
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX Core kehittäjät</translation>
+        <source>The LightPayCoin Core developers</source>
+        <translation>LightPayCoin Core kehittäjät</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>

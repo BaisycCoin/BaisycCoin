@@ -2146,8 +2146,8 @@ MultiSend: %1</translation>
         <translation>De Bitcoin Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>De PIVX Core ontwikkelaars</translation>
+        <source>The LightPayCoin Core developers</source>
+        <translation>De LightPayCoin Core ontwikkelaars</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>
@@ -2500,8 +2500,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2014-%i The PIVX Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2014-%i The LightPayCoin Core Developers</source>
+        <translation>Copyright (C) 2014-%i The LightPayCoin Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The BaisycCoin Core Developers</source>

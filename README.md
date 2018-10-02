@@ -1,4 +1,4 @@
-BaisycCoin (fork of PIVX) integration/staging repository
+BaisycCoin (fork of LightPayCoin) integration/staging repository
 ======================================
 
 
