@@ -1,0 +1,26 @@
+# /etc/conf.d/baisyccoind: config file for /etc/init.d/baisyccoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/baisyccoin/baisyccoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/baisyccoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/baisyccoind.pid"
+
+# Where to write baisyccoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/baisyccoind"
+
+# User and group to own baisyccoind process
+#BITCOIND_USER="baisyccoin"
+#BITCOIND_GROUP="baisyccoin"
+
+# Path to baisyccoind executable
+#BITCOIND_BIN="/usr/bin/baisyccoind"
+
+# Nice value to run baisyccoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

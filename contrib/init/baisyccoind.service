@@ -1,0 +1,26 @@
+[Unit]
+Description=BaisycCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=baisyccoin
+Group=baisyccoin
+
+Type=forking
+PIDFile=/var/lib/baisyccoind/baisyccoind.pid
+
+ExecStart=/usr/bin/baisyccoind -daemon -pid=/var/lib/baisyccoind/baisyccoind.pid \
+          -conf=/etc/baisyccoin/baisyccoin.conf -datadir=/var/lib/baisyccoind
+
+ExecStop=-/usr/bin/baisyccoin-cli -conf=/etc/baisyccoin/baisyccoin.conf \
+         -datadir=/var/lib/baisyccoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
