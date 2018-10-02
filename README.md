@@ -47,6 +47,6 @@ All binaries for different operating systems, you can download in the releases r
 
 https://github.com/bsycproject/BaisycCoin/releases
 
-P2P port: 39797, RPC port: 39798
+P2P port: 64578, RPC port: 64579
 -
 Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
