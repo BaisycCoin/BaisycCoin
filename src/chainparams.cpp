@@ -111,7 +111,7 @@ public:
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 1000;
         nModifierUpdateBlock = 615800;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 33000000 * COIN;
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
