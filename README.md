@@ -2,7 +2,7 @@ BaisycCoin (fork of LightPayCoin) integration/staging repository
 ======================================
 
 
-It is recommended [use the shell script](https://github.com/bsycproject/bsycinstall) to install a BaisycCoin Masternode on a Linux server running Ubuntu 14.04, 16.04, 18.04
+It is recommended [use the shell script](https://github.com/BaisycCoin/bsycInstall) to install a BaisycCoin Masternode on a Linux server running Ubuntu 14.04, 16.04, 18.04
 
 ***
 
