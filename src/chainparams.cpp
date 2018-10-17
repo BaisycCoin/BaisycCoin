@@ -91,10 +91,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x6e;
-        pchMessageStart[1] = 0x72;
-        pchMessageStart[2] = 0x4f;
-        pchMessageStart[3] = 0x5a;
+        pchMessageStart[0] = 0x4e;
+        pchMessageStart[1] = 0x52;
+        pchMessageStart[2] = 0x7f;
+        pchMessageStart[3] = 0x2a;
         vAlertPubKey = ParseHex("040d75796902e3eda97815d744328237872309a95b42a74b22d7580e56b086fbc19ae1d6ef30c9e27d060c9c48692a663b9a321161e19f853ca6a6499cba7d17f6");
         nDefaultPort = 64578;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // BaisycCoin starting difficulty is 1 / 2^12
@@ -190,10 +190,10 @@ public:
     {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0x41;
-        pchMessageStart[1] = 0x4d;
-        pchMessageStart[2] = 0x5e;
-        pchMessageStart[3] = 0x78;
+        pchMessageStart[0] = 0x15;
+        pchMessageStart[1] = 0xd4;
+        pchMessageStart[2] = 0x6f;
+        pchMessageStart[3] = 0x98;
         vAlertPubKey = ParseHex("043e8760d1c9ef3af5a5e49796afe4389a5cb53c6028b54b9af0a152f34762e453615a1aab9260a31045b85f87d4de36bbe6fd04478fcc103fd47c8e1b813c3d3c");
         nDefaultPort = 64576;
         nEnforceBlockUpgradeMajority = 51;
