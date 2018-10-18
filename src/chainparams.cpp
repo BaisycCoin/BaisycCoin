@@ -142,9 +142,10 @@ public:
         assert(hashGenesisBlock == uint256("00000dfdec6a9190b26520e93ef5eba15a82646a47ddf8fb5be4477a836467ee"));
         assert(genesis.hashMerkleRoot == uint256("98a0c0dc8214278a8a27ce9d7ca4107dd7cd6787ea6001d3d6c1a7b764098570"));
 
-        vSeeds.push_back(CDNSSeedData("45.76.111.81", "45.76.111.81"));           // Single node address 
-        vSeeds.push_back(CDNSSeedData("108.61.166.37", "108.61.166.37"));         // Single node address 
-        vSeeds.push_back(CDNSSeedData("95.179.170.82", "95.179.170.82"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("45.32.151.49", "45.32.151.49"));           // Single node address 
+        vSeeds.push_back(CDNSSeedData("108.61.221.76", "108.61.221.76"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("217.163.29.106", "217.163.29.106"));       // Single node address
+
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
@@ -219,9 +220,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 /*
-        vSeeds.push_back(CDNSSeedData("45.76.111.81", "45.76.111.81"));           // Single node address 
-        vSeeds.push_back(CDNSSeedData("108.61.166.37", "108.61.166.37"));         // Single node address 
-        vSeeds.push_back(CDNSSeedData("95.179.170.82", "95.179.170.82"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("45.32.151.49", "45.32.151.49"));           // Single node address 
+        vSeeds.push_back(CDNSSeedData("108.61.221.76", "108.61.221.76"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("217.163.29.106", "217.163.29.106"));       // Single node address
 */
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 85); // Testnet baisyccoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet baisyccoin script addresses start with '8' or '9'
