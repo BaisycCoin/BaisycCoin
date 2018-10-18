@@ -95,7 +95,7 @@ public:
         pchMessageStart[1] = 0x52;
         pchMessageStart[2] = 0x7f;
         pchMessageStart[3] = 0x2a;
-        vAlertPubKey = ParseHex("040d75796902e3eda97815d744328237872309a95b42a74b22d7580e56b086fbc19ae1d6ef30c9e27d060c9c48692a663b9a321161e19f853ca6a6499cba7d17f6");
+        vAlertPubKey = ParseHex("04fe5aab3b3db77ebc315f7d739d9587ffa48dae65e8367c4ccbae3a0601c228ff392ffc6f1336c7b612eaffd4f05d6d44b9710d1f1731c4aeedfe8a6b370473f1");
         nDefaultPort = 64578;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // BaisycCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
