@@ -195,7 +195,7 @@ public:
         pchMessageStart[1] = 0xd4;
         pchMessageStart[2] = 0x6f;
         pchMessageStart[3] = 0x98;
-        vAlertPubKey = ParseHex("043e8760d1c9ef3af5a5e49796afe4389a5cb53c6028b54b9af0a152f34762e453615a1aab9260a31045b85f87d4de36bbe6fd04478fcc103fd47c8e1b813c3d3c");
+        vAlertPubKey = ParseHex("0478c550e4925e249f583d522e34f6adb5182d8edbf465e04556891932c14aa0cfab4ee991a2e4eb2c54e08baae9dbff1a7acb111f962113520136eb38b4bf46ef");
         nDefaultPort = 64576;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
