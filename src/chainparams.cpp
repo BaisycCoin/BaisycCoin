@@ -174,7 +174,7 @@ if (false && genesis.GetHash() != hashGenesisBlock)
         assert(genesis.hashMerkleRoot == uint256("d293c08184dd3a7d4ae26d499999e66e260d291307dc36e0f129d784141da5ba"));
 
         vSeeds.push_back(CDNSSeedData("45.32.151.49", "45.32.151.49"));           // Single node address 
-        vSeeds.push_back(CDNSSeedData("108.61.221.76", "108.61.221.76"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("209.250.226.88", "209.250.226.88"));       // Single node address 
         vSeeds.push_back(CDNSSeedData("217.163.29.106", "217.163.29.106"));       // Single node address
 
 
@@ -251,7 +251,7 @@ public:
         vSeeds.clear();
 /*
         vSeeds.push_back(CDNSSeedData("45.32.151.49", "45.32.151.49"));           // Single node address 
-        vSeeds.push_back(CDNSSeedData("108.61.221.76", "108.61.221.76"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("209.250.226.88", "209.250.226.88"));       // Single node address 
         vSeeds.push_back(CDNSSeedData("217.163.29.106", "217.163.29.106"));       // Single node address
 */
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 85); // Testnet baisyccoin addresses start with 'x' or 'y'
