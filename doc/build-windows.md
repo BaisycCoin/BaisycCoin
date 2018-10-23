@@ -1,12 +1,12 @@
 WINDOWS BUILD NOTES
 ====================
 
-Below are some notes on how to build Bitcoin Core for Windows.
+Below are some notes on how to build BaisycCoin Core for Windows.
 
-The options known to work for building Bitcoin Core on Windows are:
+The options known to work for building BaisycCoin Core on Windows are:
 
 * On Linux using the [Mingw-w64](https://mingw-w64.org/doku.php) cross compiler tool chain. Ubuntu Bionic 18.04 is required
-and is the platform used to build the Bitcoin Core Windows release binaries.
+and is the platform used to build the BaisycCoin Core Windows release binaries.
 * On Windows using [Windows
 Subsystem for Linux (WSL)](https://msdn.microsoft.com/commandline/wsl/about) and the Mingw-w64 cross compiler tool chain.
 
@@ -79,13 +79,13 @@ Ubuntu Bionic 18.04 <sup>[1](#footnote1)</sup>:
 
 Once the toolchain is installed the build steps are common:
 
-Note that for WSL the Bitcoin Core source path MUST be somewhere in the default mount file system, for
+Note that for WSL the BaisycCoin Core source path MUST be somewhere in the default mount file system, for
 example /usr/src/bitcoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
 This means you cannot use a directory that located directly on the host Windows file system to perform the build.
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/bitcoin/bitcoin.git
+    git clone https://github.com/BaisycCoin/BaisycCoin.git
 
 Once the source code is ready the build steps are below.
 
