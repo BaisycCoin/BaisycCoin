@@ -209,10 +209,10 @@ QT_TRANSLATE_NOOP("baisyccoin-core", ""
 QT_TRANSLATE_NOOP("baisyccoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("baisyccoin-core", "(64578 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("baisyccoin-core", "(64758 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("baisyccoin-core", "(must be 64578 for mainnet)"),
+QT_TRANSLATE_NOOP("baisyccoin-core", "(must be 64758 for mainnet)"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("baisyccoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
