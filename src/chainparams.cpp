@@ -108,7 +108,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // BaisycCoin: 1 day
         nTargetSpacing = 1 * 60;  // BaisycCoin: 1 minute
-        nLastPOWBlock = 270;
+        nLastPOWBlock = 10400;
         nMaturity = 50;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 5000;
@@ -168,9 +168,9 @@ if(false && genesis.GetHash() != hashGenesisBlock)
         assert(hashGenesisBlock == uint256("000003cee1cbf0919055a853ed4ca7ad3396f18d4fa9731294ad4fb3f00d8dae"));
         assert(genesis.hashMerkleRoot == uint256("3c1f39c1b07fadaebab05fe3bf3e00493422db77265eacf7acd9a63ce6e2844a"));
 
-        vSeeds.push_back(CDNSSeedData("45.76.84.253", "45.76.84.253"));          // Single node address 
-        vSeeds.push_back(CDNSSeedData("192.168.1.28", "192.168.1.28"));          // Single node address 
-        vSeeds.push_back(CDNSSeedData("45.77.141.204", "45.77.141.204"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("209.250.234.237", "209.250.234.237"));       // Single node address 
+        vSeeds.push_back(CDNSSeedData("209.250.232.19", "209.250.232.19"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("80.240.16.238", "80.240.16.238"));           // Single node address
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
@@ -246,9 +246,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 /*
-        vSeeds.push_back(CDNSSeedData("45.76.84.253", "45.76.84.253"));          // Single node address 
-        vSeeds.push_back(CDNSSeedData("192.168.1.28", "192.168.1.28"));          // Single node address 
-        vSeeds.push_back(CDNSSeedData("45.77.141.204", "45.77.141.204"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("209.250.234.237", "209.250.234.237"));       // Single node address 
+        vSeeds.push_back(CDNSSeedData("209.250.232.19", "209.250.232.19"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("80.240.16.238", "80.240.16.238"));           // Single node address
 */
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 85); // Testnet baisyccoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet baisyccoin script addresses start with '8' or '9'
