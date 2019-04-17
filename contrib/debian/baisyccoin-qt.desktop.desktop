@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Baisyccoin
+Comment=Baisyccoin P2P Cryptocurrency
+Exec=baisyccoin-qt %u
+Terminal=false
+Type=Application
+Icon=baisyccoin128
+MimeType=x-scheme-handler/baisyccoin;
+Categories=Office;Finance;
+Name[en_US]=baisyccoin-qt.desktop
