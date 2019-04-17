@@ -3289,8 +3289,8 @@ https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</tr
         <translation>Los desarrolladores de Bitcoin Core</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>Los desarrolladores de LightPayCoin Core</translation>
+        <source>The PIVX Core developers</source>
+        <translation>Los desarrolladores de PIVX Core</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>
@@ -4279,8 +4279,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "BaisycCoin Alert" admin@foo.com
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The LightPayCoin Core Developers</source>
-        <translation>Copyright (C) 2014-%i The LightPayCoin Core Developers</translation>
+        <source>Copyright (C) 2014-%i The PIVX Core Developers</source>
+        <translation>Copyright (C) 2014-%i The PIVX Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The BaisycCoin Core Developers</source>

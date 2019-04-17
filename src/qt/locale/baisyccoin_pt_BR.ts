@@ -2920,8 +2920,8 @@ https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</tr
         <translation>Os desenvolvedores do Bitcoin Core</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>Os desenvolvedores do LightPayCoin Core</translation>
+        <source>The PIVX Core developers</source>
+        <translation>Os desenvolvedores do PIVX Core</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>
@@ -3598,8 +3598,8 @@ https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</tr
         <translation>Todos os direitos reservados (C) 2009-%i aos Desenvolvedores do Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The LightPayCoin Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do LightPayCoin Core</translation>
+        <source>Copyright (C) 2014-%i The PIVX Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do PIVX Core</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The BaisycCoin Core Developers</source>

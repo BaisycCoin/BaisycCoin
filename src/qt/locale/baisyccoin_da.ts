@@ -3255,7 +3255,7 @@ https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</tr
         <translation>Bitcoin "core" udviklerne</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
+        <source>The PIVX Core developers</source>
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
@@ -4230,8 +4230,8 @@ For eksempel: alertnotify=Echo %% | mail - s "BaisycCoin ALARM!" e-mail@administ
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The LightPayCoin Core Developers</source>
-        <translation>Copyright (C) 2014-%i The LightPayCoin Core Developers </translation>
+        <source>Copyright (C) 2014-%i The PIVX Core Developers</source>
+        <translation>Copyright (C) 2014-%i The PIVX Core Developers </translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The BaisycCoin Core Developers</source>

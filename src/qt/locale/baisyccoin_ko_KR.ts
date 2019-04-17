@@ -3297,8 +3297,8 @@ https://www.transifex.com/baisyccoin-project/baisyccoin-project-translations</tr
         <translation>비트코인 Core 개발자</translation>
     </message>
     <message>
-        <source>The LightPayCoin Core developers</source>
-        <translation>LightPayCoin Core 개발자</translation>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX Core 개발자</translation>
     </message>
     <message>
         <source>The BaisycCoin Core developers</source>
@@ -4288,8 +4288,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i 비트코인 Core 개발자들</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The LightPayCoin Core Developers</source>
-        <translation>Copyright (C) 2014-%i The LightPayCoin Core 개발자들</translation>
+        <source>Copyright (C) 2014-%i The PIVX Core Developers</source>
+        <translation>Copyright (C) 2014-%i The PIVX Core 개발자들</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The BaisycCoin Core Developers</source>
