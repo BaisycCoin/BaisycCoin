@@ -144,9 +144,9 @@ public:
         assert(hashGenesisBlock == uint256("00000f8afb723475d7de11e8f86fcbe9c363b55b948a385862f424551d586fd8"));
         assert(genesis.hashMerkleRoot == uint256("f60cea026749a688b5b5d7250b4b3a1b57b52d231700d8e261b10328a0b59827"));
 
-        vSeeds.push_back(CDNSSeedData("80.211.128.125", "80.211.128.125"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("94.177.187.54", "94.177.187.54"));           // Single node address
-        vSeeds.push_back(CDNSSeedData("80.211.129.187", "80.211.129.187"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("209.250.234.237", "209.250.234.237"));       // Single node address 
+        vSeeds.push_back(CDNSSeedData("209.250.232.19", "209.250.232.19"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("80.240.16.238", "80.240.16.238"));           // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -220,9 +220,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 /*
-        vSeeds.push_back(CDNSSeedData("80.211.128.125", "80.211.128.125"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("94.177.187.54", "94.177.187.54"));           // Single node address
-        vSeeds.push_back(CDNSSeedData("80.211.129.187", "80.211.129.187"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("209.250.234.237", "209.250.234.237"));       // Single node address 
+        vSeeds.push_back(CDNSSeedData("209.250.232.19", "209.250.232.19"));         // Single node address 
+        vSeeds.push_back(CDNSSeedData("80.240.16.238", "80.240.16.238"));           // Single node address
 */
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 85); // Testnet baisyccoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet baisyccoin script addresses start with '8' or '9'
